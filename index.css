@@ -1,0 +1,294 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navBar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F15B22;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    color: white;
+    font-weight: 400;
+    font-family: 'Inter';
+    /* font-family: 'sans-serif'; */
+}
+
+.navLink a {
+    color: white;
+    text-decoration: none;
+}
+
+.navLink a:hover {
+    color: aqua;
+    transition: all;
+    transition-duration: 0.03s;
+}
+
+.navLogo {
+    border-radius: 5px;
+
+}
+
+/* banner section CSS */
+.banner img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.FirstImageText {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    text-align: right;
+}
+
+.HeaderText {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Normal';
+    font: bold;
+}
+
+.description {
+    color: #444343;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.BannerButton {
+    padding: 20px;
+    background-color: #F15B22;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Work Sans';
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 10px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.BannerButton:hover {
+    background-color: black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.FirstSection {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.FirstSectionHeader {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #151414;
+}
+
+.FirstSectionDescription {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #444343;
+    margin-top: 20px;
+}
+
+.FisrtSetionUl {
+    list-style-type: none;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #444343;
+    margin-top: 10px;
+
+}
+
+/* second section */
+/* .secondSectionMainPart{
+    margin-top: 100px;
+} */
+.secondSection {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 100px;
+    margin: 20px;
+}
+.secondSectionContent{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+.secondSectionTextOne{
+font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #151414; 
+}
+.secondSectionTextTwo{
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #737272;
+    margin-top: 10px;
+}
+/* third section */
+.thirdSectionContent{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.thirdsectionImage{
+    position: relative;
+}
+.thirdsectionImage2{
+    position: absolute;
+    left: 0;
+}
+.thirdsectionText{
+    position: absolute;
+    top: 15%;
+    margin-left: 50px;
+}
+.thirdsectionleft{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.callThirdButton{
+    padding: 20px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+    color:#F15B22;
+    width: 140px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+/* footer */
+.fullFooter{
+    background-color:#151414;
+    margin-top: 500px;  
+    display: flex;
+    justify-content: space-around; 
+}
+.footerDivOne{
+    padding: 100px;
+    
+}
+.footerHeadOne{
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #F8F8F8;
+}
+.footerTextOne{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.imgDiv{
+    margin-top: 20px;
+}
+.footerDivTwo{
+    padding: 100px;
+    color: #FFFFFF;
+}
+
+.footerTextTwo{
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+/* .footerButtonOne{ 
+    font-family: Inter;
+    color:#F3F3F3;
+    background-color:#151414;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-radius: 8px;
+    border-color: #FFFFFF;
+    text-align: left;
+    margin-top: 10px; 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px; 
+}*/
+.footerInput{
+     font-family: Inter;
+    color:#F3F3F3;
+    background-color:#151414;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-radius: 8px;
+    border-color: #FFFFFF;
+    text-align: left;
+    margin-top: 10px; 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px; 
+}
+
+.footerButtonTwo{
+    font-family: Inter;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 0px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
