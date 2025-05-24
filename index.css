@@ -28,10 +28,12 @@
 }
 
 .navLink a:hover {
-    color: aqua;
+    color: black;
     transition: all;
     transition-duration: 0.03s;
 }
+
+
 
 .navLogo {
     border-radius: 5px;
@@ -138,21 +140,24 @@
     gap: 100px;
     margin: 20px;
 }
-.secondSectionContent{
+
+.secondSectionContent {
     align-items: center;
     justify-items: center;
     text-align: center;
     margin-top: 25px;
 }
-.secondSectionTextOne{
-font-family: 'Work Sans';
+
+.secondSectionTextOne {
+    font-family: 'Work Sans';
     font-weight: 700;
     font-size: 30px;
     line-height: 100%;
     letter-spacing: 0%;
-    color: #151414; 
+    color: #151414;
 }
-.secondSectionTextTwo{
+
+.secondSectionTextTwo {
     font-family: 'Work Sans';
     font-weight: 500;
     font-size: 25px;
@@ -161,25 +166,31 @@ font-family: 'Work Sans';
     color: #737272;
     margin-top: 10px;
 }
+
 /* third section */
-.thirdSectionContent{
+.thirdSectionContent {
     align-items: center;
     justify-content: center;
     justify-items: center;
+    margin-top: 100px;
 }
-.thirdsectionImage{
+
+.thirdsectionImage {
     position: relative;
 }
-.thirdsectionImage2{
+
+.thirdsectionImage2 {
     position: absolute;
     left: 0;
 }
-.thirdsectionText{
+
+.thirdsectionText {
     position: absolute;
     top: 15%;
     margin-left: 50px;
 }
-.thirdsectionleft{
+
+.thirdsectionleft {
     font-family: 'Work Sans';
     font-weight: 700;
     font-size: 40px;
@@ -187,12 +198,13 @@ font-family: 'Work Sans';
     letter-spacing: 0%;
     color: #FFFFFF;
 }
-.callThirdButton{
+
+.callThirdButton {
     padding: 20px;
     margin-top: 10px;
     border: 0;
     border-radius: 5px;
-    color:#F15B22;
+    color: #F15B22;
     width: 140px;
     font-family: 'Work Sans';
     font-weight: 600;
@@ -200,18 +212,24 @@ font-family: 'Work Sans';
     line-height: 100%;
     letter-spacing: 0%;
 }
+
 /* footer */
-.fullFooter{
-    background-color:#151414;
-    margin-top: 500px;  
+.fullFooter {
+    background-color: #151414;
+    margin-top: 200px;
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+
 }
-.footerDivOne{
+
+/* .footerDivOne{
     padding: 100px;
     
-}
-.footerHeadOne{
+} */
+.footerHeadOne {
     font-family: Work Sans;
     font-weight: 700;
     font-size: 45px;
@@ -219,7 +237,8 @@ font-family: 'Work Sans';
     letter-spacing: 0%;
     color: #F8F8F8;
 }
-.footerTextOne{
+
+.footerTextOne {
     font-family: Work Sans;
     font-weight: 400;
     font-size: 16px;
@@ -227,15 +246,19 @@ font-family: 'Work Sans';
     letter-spacing: 0%;
     color: #FFFFFF;
 }
-.imgDiv{
+
+.imgDiv {
     margin-top: 20px;
 }
-.footerDivTwo{
-    padding: 100px;
+
+.footerDivTwo {
+    /* padding: 100px; */
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
 }
 
-.footerTextTwo{
+.footerTextTwo {
     font-family: Work Sans;
     font-weight: 600;
     font-size: 25px;
@@ -243,6 +266,7 @@ font-family: 'Work Sans';
     letter-spacing: 0%;
     color: #FFFFFF;
 }
+
 /* .footerButtonOne{ 
     font-family: Inter;
     color:#F3F3F3;
@@ -260,10 +284,10 @@ font-family: 'Work Sans';
     padding-bottom: 10px;
     padding-right: 35px; 
 }*/
-.footerInput{
-     font-family: Inter;
-    color:#F3F3F3;
-    background-color:#151414;
+.footerInput {
+    font-family: Inter;
+    color: #F3F3F3;
+    background-color: #151414;
     font-weight: 200;
     font-size: 15px;
     line-height: 100%;
@@ -271,14 +295,14 @@ font-family: 'Work Sans';
     border-radius: 8px;
     border-color: #FFFFFF;
     text-align: left;
-    margin-top: 10px; 
+    margin-top: 10px;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
-    padding-right: 35px; 
+    padding-right: 35px;
 }
 
-.footerButtonTwo{
+.footerButtonTwo {
     font-family: Inter;
     color: #F15B22;
     background-color: #FFFFFF;
@@ -289,6 +313,108 @@ font-family: 'Work Sans';
     text-align: center;
     border: 0px;
     margin-top: 20px;
-    padding: 20px;
+    padding: 15px;
+    width: 140px;
     border-radius: 8px;
+}
+
+/* responsive */
+@media(max-width:770px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        width: 100%;
+        height: auto;
+    }
+
+    .navLogo {
+        margin-top: 10px;
+    }
+
+    .navLink {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FirstImageText {
+        text-align: left;
+        padding: 10px;
+        position: static;
+    }
+
+    .HeaderText {
+        font-size: 16px;
+    }
+
+    .FirstSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FirstSectionImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .FirstSectionHeader {
+        text-align: left;
+        padding: 10px;
+        position: static;
+    }
+    .secondSection{
+        /* display: flex; */
+        flex-direction: column;
+        gap: 5px;
+    }
+    .thirdsectionImage2{
+        /* display: none; */
+         width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        
+    }
+    .thirdsectionleft{
+      text-align: left;
+        padding: 10px;
+        position: static;
+        color: #FFFFFF;
+        font-size: 16px;    }
+    .thirdsectionImageOne{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .callThirdButton{
+        background-color: #151414;
+        padding: 5px;
+        padding-top: 10px;
+        margin-top: 15px;
+    }
+    .fullFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerDivTwo{
+        margin-top: 10px;
+    }
 }
